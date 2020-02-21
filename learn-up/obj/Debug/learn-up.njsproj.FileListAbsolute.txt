@@ -1,0 +1,2 @@
+C:\Users\Thiago\nestjs-learn-up\learn-up\obj\Debug\learn-up.njsprojAssemblyReference.cache
+C:\Users\Thiago\nestjs-learn-up\learn-up\bin\Microsoft.NodejsTools.WebRole.dll
