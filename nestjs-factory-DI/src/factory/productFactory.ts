@@ -10,7 +10,7 @@ export default class ProductFactory implements ProductAbstractFactory{
         private readonly productAService: ProductAService,
         private readonly productBService: ProductBService
     ){}
-
+        
     createProductService(typeProduct: string): AbstractProductService {
         switch (typeProduct) {
             case "A":

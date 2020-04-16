@@ -11,6 +11,6 @@ export class AppController {
   @Get('/product/:productType/document/:document')
   getHello(@Param('productType') productType, @Param('document') document): string {
     let service = this.productFactory.createProductService(productType);
-    return service.buildProduct(document);
+    return service.buildProduct(document);    
   }
 }
